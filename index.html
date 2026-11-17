@@ -1,0 +1,63 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A bright, modern starter website built with HTML, CSS, and JavaScript.">
+  <title>Northstar — Find your next idea</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Northstar home"><span class="brand-mark">✳</span> northstar</a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#features">What we do</a>
+      <a href="#contact" class="nav-cta">Say hello <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> A little space for big ideas</p>
+        <h1>Make room for<br><span>what’s next.</span></h1>
+        <p class="hero-description">Good things happen when you start with a clear thought and a little curiosity. Let’s make something meaningful.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#about">Explore the idea <span>↗</span></a>
+          <a class="text-link" href="#features">See what we do <span>↓</span></a>
+        </div>
+        <div class="hero-note"><div class="note-avatars"><span>✦</span><span>◒</span><span>✳</span></div><span>Made for curious minds</span></div>
+      </div>
+      <div class="hero-art" aria-label="Abstract colorful shapes">
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+        <div class="sun"></div><div class="art-card"><span class="card-star">✳</span><span>START<br>SOMETHING<br>GOOD</span><span class="card-arrow">↗</span></div>
+        <span class="spark spark-one">✦</span><span class="spark spark-two">✳</span><span class="art-caption">A fresh perspective<br>starts here.</span>
+      </div>
+      <div class="hero-bottom"><span>01 / 03</span><span class="bottom-line"></span><span>Scroll to explore ↓</span></div>
+    </section>
+
+    <section class="intro section-wrap" id="about">
+      <p class="eyebrow">A thoughtful beginning</p>
+      <div class="intro-content"><h2>Every great thing<br>starts <em>somewhere.</em></h2><div><p>Northstar is a little reminder to pause, look around, and choose your next step with intention. Bring your ideas, your questions, and your willingness to begin.</p><a href="#contact" class="text-link">Let’s make it happen <span>↗</span></a></div></div>
+    </section>
+
+    <section class="features section-wrap" id="features">
+      <div class="section-heading"><div><p class="eyebrow">The good stuff</p><h2>Small steps.<br><em>Bright directions.</em></h2></div><p>Whatever you’re dreaming up, a little clarity can take you a long way.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card card-lilac"><span class="feature-number">01</span><div class="feature-icon">✦</div><h3>Find your focus</h3><p>Make space for the ideas that matter and give them room to grow.</p><a href="#contact" aria-label="Learn more about finding your focus">↗</a></article>
+        <article class="feature-card card-peach"><span class="feature-number">02</span><div class="feature-icon">↗</div><h3>Make a plan</h3><p>Turn a big, fuzzy thought into a next step you can actually take.</p><a href="#contact" aria-label="Learn more about making a plan">↗</a></article>
+        <article class="feature-card card-green"><span class="feature-number">03</span><div class="feature-icon">✳</div><h3>Keep exploring</h3><p>Stay curious, try something new, and see where the path leads.</p><a href="#contact" aria-label="Learn more about exploring">↗</a></article>
+      </div>
+    </section>
+
+    <section class="contact section-wrap" id="contact"><div><p class="eyebrow">Your next chapter</p><h2>Have something<br>in <em>mind?</em></h2></div><a class="button button-light" href="mailto:hello@example.com">Let’s talk <span>↗</span></a></section>
+  </main>
+  <footer class="site-footer"><a class="brand" href="#home"><span class="brand-mark">✳</span> northstar</a><span>A bright place to begin.</span><span>© <span id="year"></span> Northstar</span></footer>
+</body>
+</html>
